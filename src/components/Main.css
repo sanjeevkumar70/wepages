@@ -1,0 +1,33 @@
+.top-section{
+    padding-left: 10px;
+}
+.heading {
+  font-weight: 700;
+  font-size: 26px;
+  padding-right: 10px;
+}
+.email {
+  color: #6b6b6b;
+}
+.left-side-content {
+  display: flex;
+}
+.left-box {
+  padding: 0 20px;
+  color: #6b6b6b;
+  border-right: 2px solid gray;
+}
+.left-box span {
+  font-weight: 500;
+  color: black;
+}
+.right-side-content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.right-box {
+  padding-right: 30px;
+}
+.right-box .report{
+    color:#29B712 ;
+  }

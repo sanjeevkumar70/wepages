@@ -1,12 +1,19 @@
-.cat-sidebar{
-    padding: 0 10px;
+.card-data {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  border: 1px solid yellow;
+  box-shadow: 0 0 5px #333;
 }
-.cat-sidebar h5{
-    background-color: rgb(189, 188, 188);
-  
-    padding: 5px 0;
+
+.verticalnav-left {
+  width: 10%;
+  height: 800px;
+  border-right: 1px solid gainsboro;
 }
-.cat-sidebar p{
-font-size: 12px;
-line-height: 5px;
+.content-right {
+  padding: 20px;
+  width: 90%;
+  height: 800px;
+  overflow-y:hidden;
 }
